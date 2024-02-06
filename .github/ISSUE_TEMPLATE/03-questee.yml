@@ -9,8 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        依頼の投稿ありがとうございます！
-        以下のフォームに必要事項を記入してください。
+        依頼の投稿ありがとうございます！以下のフォームに必要事項を記入してください。
         注意点として、対応をお約束するわけではないです。
         Expire を過ぎた場合や、定期的な棚卸し時に依頼が無効になる場合があります。
   - type: textarea
@@ -18,7 +17,9 @@ body:
     attributes:
       label: 依頼主について
       description: 個人開発・共同開発・企業・団体など、依頼主について記載してください。
-      placeholder: 共同開発xxリーダーのyyyです。これはaaaというプロジェクトです。参考 → bbb。
+      placeholder: |
+        共同開発xxリーダーのyyyです。これはaaaというプロジェクトです。
+        参考 → https://bbb。
     validations:
       required: true
   - type: textarea
@@ -62,7 +63,7 @@ body:
   - type: dropdown
     id: article-publish
     attributes:
-      label: 対応内容を記事などで公開しても良いか(はい\|いいえ)
+      label: 対応内容を記事などで公開しても良いか
       options:
         - はい
         - いいえ
@@ -72,7 +73,7 @@ body:
   - type: dropdown
     id: article-publish-project
     attributes:
-      label: 記事でプロジェクトについて言及しても良いか(はい\|いいえ)
+      label: 記事でプロジェクトについて言及しても良いか
       options:
         - はい
         - いいえ
