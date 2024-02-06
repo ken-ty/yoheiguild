@@ -1,7 +1,7 @@
-name: 依頼テンプレート2
-description: 依頼を作成する際のテンプレートです。2
+name: 依頼テンプレート
+description: 依頼を作成する際のテンプレートです。
 title: "【 初 | 中 | 上 級クエスト】 依頼タイトルを入力せよ！"
-labels: ["bug", "triage"]
+labels: ["Quest"]
 projects: []
 assignees:
   - octocat
