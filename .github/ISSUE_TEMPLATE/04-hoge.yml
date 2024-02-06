@@ -4,6 +4,7 @@ title: "【キャッチーな何か】依頼タイトル"
 labels: ["Quest"]
 projects: []
 assignees:
+  - 
 body:
   - type: markdown
     attributes:
