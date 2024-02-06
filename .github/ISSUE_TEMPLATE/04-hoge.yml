@@ -2,7 +2,7 @@ name: 依頼テンプレート2
 description: 依頼を作成する際のテンプレートです。2
 title: "【 初 | 中 | 上 級クエスト】 依頼タイトルを入力せよ！"
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: []
 assignees:
   - octocat
 body:
