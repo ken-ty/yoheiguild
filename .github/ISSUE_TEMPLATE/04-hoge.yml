@@ -2,6 +2,9 @@ name: 依頼テンプレート2
 description: 依頼を作成する際のテンプレートです。2
 title: "【 初 | 中 | 上 級クエスト】 依頼タイトルを入力せよ！"2
 labels: ["Quest"]
+projects: []
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
